@@ -1,0 +1,51 @@
+blockquote {
+    border-left-color: #00bcd4 !important;
+}
+
+.on-render-fade-in, .scroll-fade-in {
+    opacity: 0;
+    padding-top: 7px;
+}
+
+.inform-block {
+    font-size: 30px;
+} 
+
+
+.card-icon {
+    font-size: 80px;
+}
+
+
+.justify-text {
+    text-align: justify;
+}
+
+.contacts {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 1600px) {
+    .card-icon {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 27px !important;
+    }
+    
+    h2 {
+        font-size: 23px !important;
+    }
+    
+    .inform-block {
+        font-size: 15px;
+    }
+    
+    .contacts {
+        font-size: 15px;
+    }
+}
